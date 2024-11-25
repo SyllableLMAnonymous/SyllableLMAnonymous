@@ -14,16 +14,19 @@
             width: 80%;
             margin: 0 auto;
             border-collapse: collapse;
+            table-layout: fixed; /* Ensures all columns have equal width */
         }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
+            text-align: center;
         }
         th {
             background-color: #f2f2f2;
         }
         audio {
-            width: 100%;
+            width: 100%; /* Make audio controls stretch to fit the cell */
+            max-width: 150px; /* Optional: Set a max width to keep layout compact */
         }
     </style>
 </head>
