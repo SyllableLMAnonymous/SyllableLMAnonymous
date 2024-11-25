@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllable LM Resynthesis Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Syllable LM Resynthesis Demo</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Audio</th>
+                <th>5.0Hz</th>
+                <th>6.25Hz</th>
+                <th>8.33Hz</th>
+                <th>TWIST (~19.5Hz)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7127-75947-0015.flac</td>
+                <td><audio controls src="SyllableLMDemo/5.0Hz/7127-75947-0015.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/6.25Hz/7127-75947-0015.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/8.33Hz/7127-75947-0015.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/TWIST/7127-75947-0015.flac"></audio></td>
+            </tr>
+            <tr>
+                <td>1580-141084-0024.flac</td>
+                <td><audio controls src="SyllableLMDemo/5.0Hz/1580-141084-0024.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/6.0Hz/1580-141084-0024.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/7.0Hz/1580-141084-0024.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/8.0Hz/1580-141084-0024.flac"></audio></td>
+            </tr>
+            <tr>
+                <td>2961-960-0017.flac</td>
+                <td><audio controls src="SyllableLMDemo/5.0Hz/2961-960-0017.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/6.0Hz/2961-960-0017.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/7.0Hz/2961-960-0017.flac"></audio></td>
+                <td><audio controls src="SyllableLMDemo/8.0Hz/2961-960-0017.flac"></audio></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
